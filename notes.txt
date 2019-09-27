@@ -1,0 +1,33 @@
+Introduction to HTML:
+
+The internet is a fast network of connected computers
+Originally, the internet was created by Beers in 1989 to share research between scholars, the internet is now used for almost everything.
+
+Websites are written using three languages:
+    HTML (hyper text markup language)for the content on the wbesite
+    CSS (cascading style sheets) for styling your website
+    JavaScript for making your website interactive
+
+Body of an HTML:
+    <html>
+        <head>
+            <title></title>
+        </head>
+        <body>
+        </body>
+    </html>
+
+Every HTML page must have these 4 elements in it.
+
+Other commonly used element tags:
+    <div></div> helps to divide your page into 'divisions'
+    <p></p> used to label paragraphs.
+    <ol></ol> ordered list (numbered list)
+    <ul></ul> unordered list (bulleted list)
+    <li></li> list item (used for each separate item of a list)
+    <h1></h1> heading 1 (largest heading)
+    <h2>-<h6> headings of various sizes, the text size gets smaller as the heading number increases
+
+Creating a page about you:
+    
+
