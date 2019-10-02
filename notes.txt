@@ -29,5 +29,10 @@ Other commonly used element tags:
     <h2>-<h6> headings of various sizes, the text size gets smaller as the heading number increases
 
 Creating a page about you:
-    
+    * Splash Page
+    * Hobbies/ Sports
+    * Music
+    * Books
+    * About
+
 
