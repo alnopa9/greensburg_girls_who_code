@@ -105,9 +105,13 @@ a:hover{
 }
 #main{
     text-align: center;
-    justify-content: center;}
+    justify-content: center;
+}
+#left-picture{
+    justify-content: center;
+}
 .left img{
-    height: 85vh;
-    width: auto;
+    max-width: 25vw;
+    height: auto;
 }
 

@@ -104,6 +104,9 @@ a{
   text-align: center;
   justify-content: center;
 }
+#left-picture{
+    justify-content: center;
+}
 .left img{
   height: auto;
   width: 50vw;
