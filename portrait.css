@@ -1,7 +1,7 @@
 html, body {margin: 0; padding: 0;}
 body{
   background: #dddddd;
-  font-size: 2rem;
+  font-size: 2vh;
   display: flex;
   height: 100vh;
   width: 100vw;
