@@ -12,18 +12,18 @@ body{
 .navbar{
   background: #99ffcc;
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 20vh;
-  flex-direction: row;
+  flex-direction: column;
 }
 .content{
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 80vh;
-  flex-direction: row;
+  flex-direction: column;
 }
 .sidebar{
-  background: ffff80;
+  background: #ffff80;
   display: flex;
   width: 100%;
   height: 10vh;
@@ -31,12 +31,14 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
+  order: 2;
 }
 .info-top{
   display: flex;
   width: 100%;
   height: 100%;
   flex-direction: column;
+  order: 1;
 }
 .main{
   display: flex;
@@ -81,7 +83,7 @@ body{
   width: auto;
 }
 .sidebar img{
-  height: 5vh;
+  height: 9vh;
   width: auto;
 }
 .left, .right{
@@ -97,7 +99,7 @@ body{
   justify-content: center;
 }
 .left img{
-  height: 85vh;
-  width: auto;
+  height: auto;
+  width: 50vw;
 }
 
