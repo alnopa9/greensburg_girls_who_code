@@ -84,7 +84,7 @@ Let's add our image to tour page in `<body>` and underneath our `<p>`
 
 ### What's next?
 
-You'll see that everything we put on our site is there, but it's not styled. This is because the styling of a webpage is handled separately from the html file itself. Instead, we use CSS (cascading style sheets) to style webpage however we want!
+You'll see that everything we put on our site is there, but it's not styled. This is because the styling of a webpage is handled separately from the html file itself. Instead, we use CSS (cascading style sheets) to style webpage however we want! In fact, that's our next task.
 
 
 
