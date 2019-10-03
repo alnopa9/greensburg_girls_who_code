@@ -1,7 +1,7 @@
 html, body {margin: 0; padding: 0;}
 body{
   background: #dddddd;
-  font-size: 18px;
+  font-size: 2rem;
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -15,6 +15,7 @@ body{
   width: 100vw;
   height: 20vh;
   flex-direction: column;
+  font-size: 1.5rem;
 }
 .content{
   display: flex;
