@@ -103,6 +103,7 @@ a:hover{
     justify-content: flex-start;
     align-items: center;
     padding: 2px;
+    overflow-y: auto;
 }
 #main{
     text-align: center;
@@ -112,7 +113,13 @@ a:hover{
     justify-content: center;
 }
 .left img{
-    max-width: 25vw;
+    max-width: 30vw;
     height: auto;
 }
-
+#project-pictures img{
+    height: 20vh;
+}
+#project-pictures{
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
