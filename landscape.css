@@ -103,13 +103,9 @@ a:hover{
     justify-content: flex-start;
     align-items: center;
     padding: 2px;
-    overflow-y: auto;
 }
 #main{
     text-align: center;
-    justify-content: center;
-}
-#left-picture{
     justify-content: center;
 }
 .left img{
@@ -123,13 +119,25 @@ a:hover{
     justify-content: space-around;
     padding-bottom: 20px;
 }
+.gallery{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    border: 1px solid black;
+}
 .gallery-row{
     display: flex;
     flex-direction: row;
     width: 95%;
-    height: 95%;
+    height: 30vh;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid black;
 }
 .gallery-column{
     display: flex;
@@ -143,6 +151,7 @@ a:hover{
     height: 25vh;
     width: auto;
 }
-
-
+#left-picture{
+    justify-content: flex-start;
+}
 
