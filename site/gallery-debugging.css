@@ -26,32 +26,35 @@ body{overflow: hidden;}
 .gallery{
     display: flex;
     width: 45vw;
-    height: 100%;
+    height: 90vh;
     order: 2;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    overflow: auto;
+    overflow-y: auto;
     border: 1px solid black;
 }
 .gallery-row{
     display: flex;
-    width: 50%;
-    height: 90%;
+    width: 40vw;
+    height: 30vh;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
+    padding: 5px 0px 5px 0px;
     border: 1px solid black;
 }
 .gallery-img{
     display: flex;
-    width: 33%;
-    height: 90%;
+    width: 11vw;
+    height: 27vh;
     overflow: hidden;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
 }
 .gallery-img img{
-    height: 30vh;
+    height: 27vh;
     width: auto;
 }
 .text{
@@ -59,7 +62,14 @@ body{overflow: hidden;}
     width: 45vw;
     height: 100%;
     order: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     border: 1px solid black;
+}
+.gallery-individual{
+    display: flex;
 }
 
 
