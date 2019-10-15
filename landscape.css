@@ -40,20 +40,6 @@ a:hover{
     align-items: center;
     text-align: center;
 }
-.info-top{
-    display: flex;
-    width: 92%;
-    height: 100%;
-    flex-direction: column;
-}
-.main{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 .nav-links{
     display: flex;
     flex-direction: column;
@@ -119,39 +105,43 @@ a:hover{
     justify-content: space-around;
     padding-bottom: 20px;
 }
-.gallery{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-    overflow: auto;
-    justify-content: center;
-    align-items: center;
-    overflow: scroll;
-    border: 1px solid black;
-}
-.gallery-row{
-    display: flex;
-    flex-direction: row;
-    width: 95%;
-    height: 30vh;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid black;
-}
-.gallery-column{
-    display: flex;
-    width: 30%;
-    height: 90%;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-.gallery-column img{
-    height: 25vh;
-    width: auto;
-}
 #left-picture{
     justify-content: flex-start;
 }
-
+#construction{
+    justify-content: center;
+}
+#projects{
+    overflow-y: scroll;
+}
+.gallery{
+    display: flex;
+    width: 45vw;
+    height: 90vh;
+    order: 2;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+}
+.gallery-row{
+    display: flex;
+    width: 40vw;
+    height: 30vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 0px 5px 0px;
+}
+.gallery-img{
+    display: flex;
+    width: 11vw;
+    height: 27vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-img img{
+    height: 27vh;
+    width: auto;
+}
