@@ -145,3 +145,12 @@ a:hover{
     height: 27vh;
     width: auto;
 }
+#gallery{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#gallery img{
+    height: 50vh;
+    width: auto;
+}
